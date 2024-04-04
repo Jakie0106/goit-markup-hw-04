@@ -67,6 +67,21 @@ img {
   display: block;
 }
 
+/*.active:active {
+  color: #404bbf;
+}*/
+
+.active:active::after {
+  content: "";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
 .header-logo {
   color: #2e2f42;
 }
@@ -75,6 +90,7 @@ img {
   width: 261px;
   gap: 40px;
   display: flex;
+  position: relative;
 }
 
 .header-nav-item {
@@ -93,6 +109,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-menu-link:active,
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
