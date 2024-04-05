@@ -412,9 +412,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   position: absolute;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
   top: 0;
   left: 0;
   width: 100%;
@@ -494,13 +492,13 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 .footer-social-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-top: 16px;
 }
 .footer-social-item {
 }
